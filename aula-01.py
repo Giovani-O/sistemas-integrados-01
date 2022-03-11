@@ -29,5 +29,15 @@
 
 # print(len(numList))
 
-name = input("Please, type your name: ")
-print("Thanks, " + name);
+# name = input("Please, type your name: ")
+# print("Thanks, " + name);
+
+greaterNumber = 908
+smallerNumber = 98
+
+if greaterNumber > smallerNumber:
+    print(str(greaterNumber) + " is obviously greater")
+elif greaterNumber == smallerNumber:
+    print("Well, they're equal")
+else:
+    print("The smaller number is bigger... What!?")
