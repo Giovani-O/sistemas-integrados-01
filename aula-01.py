@@ -20,14 +20,14 @@
 
 # printString(name)
 
-stackList = ["VueJS", "C#", "MongoDB"]
-numList = [9, 0, 8]
+# stackList = ["VueJS", "C#", "MongoDB"]
+# numList = [9, 0, 8]
 
-print(max(stackList))
+# print(max(stackList))
 
-print(min(numList))
+# print(min(numList))
 
-print(len(numList))
+# print(len(numList))
 
-
-
+name = input("Please, type your name: ")
+print("Thanks, " + name);
